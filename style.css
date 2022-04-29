@@ -1,0 +1,56 @@
+/*Author: Matheus Henrique de Assis*/
+
+*{
+    margin: 0;  /* Retirar margem da página */
+}
+body{                                                                   
+    background-image: linear-gradient(45deg, cyan, yellow);     /* Fundo degradê da página */
+}
+.caixa{                                                 /* Caixa de Login */
+    position: absolute;     
+    text-align: center;
+    left: 50%;                                          /* Eixo horizontal da Caixa */
+    top: 50%;                                           /* Eixo vertical da Caixa */
+    transform: translate(-50%, -50%);                   /* Ajuste de centro da Caixa em relação à página */
+    width: 18em;                                            
+    height: 19.5em;                                           
+    background: rgba(27, 27, 27, 0.9);                /* Fundo da Caixa com transparência*/                     
+    border-radius: 15px;
+}
+.caixa h1{                                              /* Nome Login */
+    color: white;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.campos input{                                          /* Campos de Usuário e Senha */
+    padding: 1em;
+    margin: 8px 0;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.campos label{                                          /* Radio de Política de privacidade */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.campos label:active{                                   /* Reação ao clicar no Radio de Política de privacidade*/
+    color: #808080;
+}
+.botao input{                                           /* Botão Enviar*/
+    color: white;
+    margin-top: 20px;
+    padding: 10px 40px;
+    width: 67%;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #1a1a1a;
+}
+.botao input:active{                                    /* Reação ao clicar no botão Enviar */
+    color: #808080;
+}
