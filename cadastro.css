@@ -1,0 +1,82 @@
+/*Author: Matheus Henrique de Assis*/
+
+*{
+    margin: 0px;                                        /* Retirar margem da página */
+}
+
+body{
+    background-image: linear-gradient(45deg, cyan, yellow);     /* Fundo degradê da página */
+}
+.caixa{                                                         /* Caixa de Cadastro */
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);                           /* Ajuste de centro da Caixa em relação à página */
+    left: 50%;                                                  /* Eixo horizontal da Caixa */
+    top: 50%;                                                   /* Eixo vertical da Caixa */
+    background-color: rgba(27, 27, 27, 0.9);                  /* Fundo da Caixa com transparência*/   
+    width: 25em;
+    height: 37.4em;
+    border-radius: 15px;
+}
+.caixa h1{                                                      /* Nome Cadastro */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.campos input{                                                  /* Campos do formulário de cadastro */
+    margin: 5px 0;
+    padding: 12px;
+    width: 20em;
+    outline: none;
+    font-family: arial;
+    border: none;
+    border-radius: 5px;
+}
+.radio-acordo {                                                 /* Radio de acordo de termos */
+    color: white;
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.radio-acordo label:active{                                     /* Reação no Radio */
+    color: #808080;
+}
+.botao input{                                                   /* Botão de Enviar */
+    color: white;
+    margin-top: 15px;
+    padding: 12px 40px;
+    width: 72%;
+    background: #1a1a1a;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.botao input:active{                                            /* Reação do botão Enviar */
+    color: #808080;
+}
+
+.paragrafo-cadastro{                                            /* Parágrafo de Já possui cadastro */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.botao-voltar button{                                           /* Botão de voltar */
+    color: white;
+    margin-top: 15px;
+    padding: 12px 40px;
+    width: 72%;
+    background: #1a1a1a;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.botao-voltar button:active{                                    /* Reação do botão Voltar */
+    color: #808080;
+}

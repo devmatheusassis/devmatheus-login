@@ -13,7 +13,7 @@ body{
     top: 50%;                                           /* Eixo vertical da Caixa */
     transform: translate(-50%, -50%);                   /* Ajuste de centro da Caixa em relação à página */
     width: 18em;                                            
-    height: 19.5em;                                           
+    height: 26.1em;                                           
     background: rgba(27, 27, 27, 0.9);                /* Fundo da Caixa com transparência*/                     
     border-radius: 15px;
 }
@@ -32,17 +32,30 @@ body{
     border: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-.campos label{                                          /* Radio de Política de privacidade */
+.checkbox-lembrar {                                     /* Checkbox para lembrar credenciais */
+    position: relative;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    padding: 8px 0;
+    text-align: left;
+    left: 60px;
 }
-.campos label:active{                                   /* Reação ao clicar no Radio de Política de privacidade*/
+.checkbox-lembrar label:active{                         /* Reação do Checkbox */
     color: #808080;
 }
-.botao input{                                           /* Botão Enviar*/
+.radio-privacidade {                                    /**/     
     color: white;
-    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 8px 0;
+}
+.radio-privacidade label:active{                         /* Reação ao clicar no Radio de Política de privacidade*/
+    color: #808080;
+}
+.botao-login input{                                      /* Botão Enviar*/
+    color: white;
+    margin-top: 10px;
     padding: 10px 40px;
     width: 67%;
     border-radius: 8px;
@@ -51,6 +64,30 @@ body{
     border: none;
     background-color: #1a1a1a;
 }
-.botao input:active{                                    /* Reação ao clicar no botão Enviar */
+.botao-login input:active{                                    /* Reação ao clicar no botão Entrar */
+    color: #808080;
+}
+.caixa p{                                                      /* Parágrafo de Não tem Cadastro */
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.botao-cadastro input{                                         /* Botão de Cadastrar */
+    color: white;
+    margin-top: 18px;
+    padding: 10px 40px;
+    width: 67%;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #1a1a1a;
+}
+.botao-cadastro a{                                          /* Ancoragem de botão Cadastrar */
+    color: white;
+    text-decoration: none;
+}
+.botao-cadastro input:active{                               /* Reação do botão Cadastrar */
     color: #808080;
 }

@@ -9,17 +9,26 @@
 </head>
     <body>
         <img>
-        <form action="#">
+        <form action="#" method="post">
         <div class="caixa">
             <h1>Login</h1><br>
             <div class="campos"> 
                 <input id="username"type="text" name="username" placeholder="Usuário" required><br>
                 <input id="pass" type="password" name="password" placeholder="Senha" minlength="8" required><br>
-                <label for="privacidade"><input  id="privacidade" type="radio" name="policy" value="#" required> Política de privacidade</label>
             </div>
-            <div class="botao">
-                <input type="submit" value="Enviar"> 
+            <div class="checkbox-lembrar">
+                <label for="remember"><input id="remember" type="checkbox"> Lembrar</label><br>
+            </div>
+            <div class="radio-privacidade">
+                <label for="privacidade"><input id="privacidade" type="radio" name="policy" value="#" required> Política de privacidade</label>
+            </div>
+            <div class="botao-login">
+                <input type="submit" value="Entrar"> 
             </div>     
+            <p>Não tem cadastro?</p>
+            <div class="botao-cadastro">
+                <a href="./cadastro.html"><input type="button" value="Cadastrar"></a>
+            </div>
         </div>
         </form>
     </body> 

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matheus Henrique de Assis">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <img>
+    <form action="#">
+        <div class="caixa">
+            <h1>Cadastro</h1>
+            <div class="campos">
+                <label for="nome-completo"></label>
+                <input type="text" name="nome" id="nome-completo" placeholder="Nome completo" required>
+                <label for="data-nascimento"></label>
+                <input type="text" name="data" id="data-nascimento" placeholder="Data de nascimento"  onfocus="(this.type='Date')" required>
+                <label for="email"></label>
+                <input type="email" name="e-mail" id="email" placeholder="E-mail" required>
+                <label for="usuario"></label>
+                <input type="text" name="username" id="usuario" placeholder="Usuário" required>
+                <label for="senha"></label>
+                <input type="password" name="pass" id="senha" placeholder="Senha" minlength="8" required>
+                <label for="repetir-senha"></label>
+                <input type="password" name="repass" id="repetir-senha" placeholder="Repita a senha" minlength="8" required>
+            </div>
+            <div class="radio-acordo">
+                <label for="politica"><input type="radio" name="policy" id="politica" required> Estou de acordo com os termos</label>
+            </div>
+            <div class="botao">
+                <input type="submit" value="Enviar">
+            </div>
+            <div class="paragrafo-cadastro">
+                <p>Já possui cadastro?</p>
+            </div>
+            <div class="botao-voltar">
+                <a href="./index.html"><button type="button">Voltar</button></a>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
